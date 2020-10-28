@@ -37,6 +37,43 @@ body{
 
 .instagram-continue {
   display: flex;
+  align-items: center; /* Devido ao flex-direcion:column isto agora está na horizontal*/
+  justify-content: space-around; /* Devido ao flex-direcion:column isto agora está na vertical*/
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  justify-content:space-around;
   align-items: center;
+  flex-direction:column;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1.3rem 1rem;
+  border: 1px solid lightgray;
+}
+.group:nth-child(1){
+  min-height: 19tem;
+}
+.instagram-logo {
+  height: 3rem;
+}
+.profile-photo {
+  display: flex;;
   justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+}
+.profile-photo img {
+  height: 6rem;
+}
+
+.instagram-login {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
 }
