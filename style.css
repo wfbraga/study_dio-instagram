@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: sans-serif;
-  font-size: 14px
+  font-size: 0.85rem
 }
 
 body{
@@ -21,7 +21,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 60%;
+  width: 90%;
   height: 100vh
 }
 
@@ -41,21 +41,21 @@ body{
   justify-content: space-around; /* Devido ao flex-direcion:column isto agora está na vertical*/
   flex-direction: column;
   width: 50%;
-  min-height: 34rem;
+  min-height: 35rem;
 }
 
 .group {
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
   background-color: #ffffff;
   width: 100%;
-  padding: 1.3rem 1rem;
+  padding: 1.3rem 0;
   border: 1px solid lightgray;
 }
 .group:nth-child(1){
-  min-height: 19tem;
+  min-height: 19rem;
 }
 .instagram-logo {
   height: 3rem;
@@ -65,7 +65,7 @@ body{
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-
+  overflow: hidden;
 }
 .profile-photo img {
   height: 6rem;
@@ -76,4 +76,85 @@ body{
   color: #ffffff;
   padding: 8px;
   border-radius: 4px;
+}
+
+.instagram-logout {
+  color: #0095f6;;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: rgb(160, 160, 160);
+
+}
+.link-blue {
+  color: #0095f6
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.3rem;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.app-download {
+  height: 3rem;
+  width: 10rem;  
+  background-size: cover;
+}
+
+.app-download:nth-child(1) {
+  background-image: url('/img/apple-button.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.app-download:nth-child(2) {
+  background-image: url('/img/googleplay-button.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* media queires */
+
+@media (max-width: 1204){
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  body{
+    background-color: #ffffff;
+  }
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-continue{
+    width: 100%;
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
+}
+
+@media (max-width: 375px) {
+  .app-download {
+    display: block;
+  }
 }
