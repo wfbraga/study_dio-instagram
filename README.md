@@ -3,7 +3,7 @@
 
 ## Agradecimentos
 
-	Gostaria de agradecer a DIO pela oportunidade de aprendizado e a instrutora **Gabriela** que deu dicas importantes. Não simplesmente foi jogando código na tela mas deu dicas importantes sobre posicionamento que me fizeram entender algumas coisas nas quais tinha dificuldade.
+Gostaria de agradecer a DIO pela oportunidade de aprendizado e a instrutora **Gabriela** que deu dicas importantes. Não simplesmente foi jogando código na tela mas deu dicas importantes sobre posicionamento que me fizeram entender algumas coisas nas quais tinha dificuldade.
 
 
 
