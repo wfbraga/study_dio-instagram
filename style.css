@@ -31,17 +31,18 @@ body{
   justify-content: center;
   width: 50%
 }
+
 .instagram-phone img {
   height: 50rem
 }
 
 .instagram-continue {
   display: flex;
-  align-items: center; /* Devido ao flex-direcion:column isto agora está na horizontal*/
-  justify-content: space-around; /* Devido ao flex-direcion:column isto agora está na vertical*/
+  align-items: center;
+  justify-content: space-around;
   flex-direction: column;
   width: 50%;
-  min-height: 35rem;
+  min-height: 35rem
 }
 
 .group {
@@ -52,41 +53,45 @@ body{
   background-color: #ffffff;
   width: 100%;
   padding: 1.3rem 0;
-  border: 1px solid lightgray;
+  border: 1px solid lightgray
 }
+
 .group:nth-child(1){
-  min-height: 19rem;
+  min-height: 19rem
 }
+
 .instagram-logo {
-  height: 3rem;
+  height: 3rem
 }
+
 .profile-photo {
   display: flex;;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: hidden
 }
+
 .profile-photo img {
-  height: 6rem;
+  height: 6rem
 }
 
 .instagram-login {
   background-color: #0095f6;
   color: #ffffff;
   padding: 8px;
-  border-radius: 4px;
+  border-radius: 4px
 }
 
 .instagram-logout {
-  color: #0095f6;;
-  margin-top: 1rem;
+  color: #0095f6;
+  margin-top: 1rem
 }
 
 .not-account {
-  color: rgb(160, 160, 160);
-
+  color: rgb(160, 160, 160)
 }
+
 .link-blue {
   color: #0095f6
 }
@@ -97,7 +102,7 @@ body{
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 1.3rem;
+  padding: 1.3rem
 }
 
 .download {
@@ -105,56 +110,52 @@ body{
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.5rem
 }
 
 .app-download {
   height: 3rem;
   width: 10rem;  
-  background-size: cover;
+  background-size: cover
 }
 
 .app-download:nth-child(1) {
   background-image: url('/img/apple-button.png');
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat
 }
+
 .app-download:nth-child(2) {
   background-image: url('/img/googleplay-button.png');
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat
 }
+
 /* media queires */
 
 @media (max-width: 1204){
   .instagram-wrapper {
-    width: 90%;
+    width: 90%
   }
 }
 
 @media (max-width: 768px) {
   body{
-    background-color: #ffffff;
+    background-color: #ffffff
   }
   .instagram-wrapper {
-    width: 90%;
+    width: 90%
   }
 
   .instagram-phone {
-    display: none;
+    display: none
   }
 
   .instagram-continue{
-    width: 100%;
+    width: 100%
   }
 
   .group {
-    border: 1px solid transparent;
-  }
-}
-
-@media (max-width: 375px) {
-  .app-download {
-    display: block;
+    border: 1px solid transparent
   }
 }
