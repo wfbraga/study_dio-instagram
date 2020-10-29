@@ -9,7 +9,7 @@ Gostaria de agradecer a DIO pela oportunidade de aprendizado e a instrutora **Ga
 
 ## O Processo
 	
-	Devido ao tempo escasso e não apenas para fazer o curso mas entender o que se ensina eu fiz um vídeo por dia.
+Devido ao tempo escasso e não apenas para fazer o curso mas entender o que se ensina eu fiz um vídeo por dia.
 
 
 
@@ -20,4 +20,4 @@ O código não está exatamente igual ao proposto pela instrutora pois usei uma 
 
 ## Considerações Finais
 
-  Apesar de aparentemente simples, o projeto forneceu aprendizado importante sobre flex-boxes, posicionamentos e o uso de media-queries.
+Apesar de aparentemente simples, o projeto forneceu aprendizado importante sobre flex-boxes, posicionamentos e o uso de media-queries.
